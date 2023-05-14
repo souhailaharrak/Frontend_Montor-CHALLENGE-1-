@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+    --style-font-size:2.5rem;
+}
+
+body{
+    margin: 0;
+    font-size: 15px;
+    background-color:    hsl(0, 0%, 98%);
+    font-family: "Poppins" sans-serif;;
+}
+.page {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 75px;
+  }
+.section1{
+     
+    
+    text-align: center;
+     
+}
+.section1 p:first-child{
+   color: hsl(234, 12%, 34%);
+   font-size: var(--style-font-size);
+     font-weight: 00;
+     margin: 0;
+
+}
+
+.section1 p:nth-child(2){
+    margin: 0;
+    font-weight: 600;
+    color:  hsl(234, 12%, 34%);
+    font-size: var(--style-font-size);
+}
+
+.section1 p:last-child{
+   color:  hsl(229, 6%, 66%);
+     font-weight: 400;
+     line-height: 1.6rem;
+
+
+
+}
+/* .card_super{
+    
+    line-height: 1.6rem;
+    font-weight: 400;
+    
+
+} */
+
+  
+.content .card-holder h3{
+    color:  hsl(234, 12%, 34%);
+    font-weight: 600;     
+    margin: 0 0 20px;
+    font-size: 22px; 
+}
+.content{
+
+    display: flex;
+   margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    max-width: 100%;
+  gap:20px;
+    width: 1200px;
+    
+}
+.content .card-holder {
+    flex: 1;
+  }
+.content .card-holder .card p {
+    line-height: 1.7;
+    color: hsl(229, 6%, 66%);
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .content .card-holder .card img {
+    display:block;
+    margin-left: auto;
+  }
+.content .card-holder .card{
+
+   
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-top: 4px solid transparent;
+    -webkit-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    -moz-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+    box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+}
+.content .card-holder .super {
+    border-top-color: hsl(180, 62%, 55%);
+  }
+  .content .card-holder .Team {
+    border-top-color: hsl(0, 78%, 62%);
+  }
+  .content .card-holder .Karma {
+    border-top-color: hsl(34, 97%, 64%);
+  }
+  .content .card-holder .Calculator {
+    border-top-color: hsl(212, 86%, 64%);
+  }
